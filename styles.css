@@ -1,0 +1,358 @@
+.up-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #fffefe;
+}
+.up-navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fffdfd;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+.up-profile {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.up-profile img {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.up-profile span {
+    font-size: 22px; 
+    font-weight: bold;
+}
+.up-nav-links {
+    display: flex;
+    gap: 20px;
+}
+.up-nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.up-nav-links a:hover {
+    background-color: #ddd;
+}
+.up-profile-section {
+    display: flex;
+    align-items: center;    
+    padding: 40px;
+    background-color: #585858;
+}
+.up-profile-info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 130px;
+}
+.up-profile-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 80px;
+}
+.up-profile-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.up-profile-details h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.up-profile-details .up-tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.up-profile-details .up-tags span {
+    background-color: #818181;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.up-profile-details .up-bio {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.up-profile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 140px;
+}
+.up-profile-actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.up-profile-actions .up-change-avatar {
+    background-color: #fff5f5;
+    color: #333;
+}
+.up-profile-actions .up-change-avatar:hover {
+    background-color: #bbb;
+}
+.up-profile-actions .up-edit-profile {
+    background-color: #000;
+    color: #fff;
+}
+.up-profile-actions .up-edit-profile:hover {
+    background-color: #222;
+}
+
+.up-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    color: black;
+}
+.up-main-content button {
+    padding: 20px 40px; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #000;
+    color: #fff;
+}
+.up-main-content h1{
+    font-size: 50px;
+}
+.up-main-content h2{
+    margin-top: -5px;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.up-info-data {
+    color: black;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    justify-content: center;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.up-card-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.up-card {
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #dadada; /* Contrasting border color */
+    flex: 1;
+    text-align: left;
+    min-width: 200px; /* Minimum width to maintain card shape */
+}
+
+.up-card h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #7c7c7c;
+    font-weight: normal;
+}
+
+.up-card p {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.up-recommended-courses {
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 8px;
+    padding-left: 20rem;
+    margin-top: 5rem;
+}
+
+.up-courses-content {
+    display: flex; 
+    align-items: center; 
+}
+
+.up-courses-img {
+    margin-right: 1.5rem; 
+}
+
+.up-courses-img img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.up-courses-text {
+    text-align: left; 
+}
+
+.up-courses-text h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 1.5rem; 
+    color: black;
+}
+
+.up-courses-text p {
+    font-size: 1.2rem; 
+    margin-bottom: 1.5rem; 
+    color: black;
+}
+
+.up-courses-text .up-rec-buttons {
+    display: flex;
+    gap: 1rem; 
+}
+
+.up-courses-text .up-rec-buttons button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.up-courses-text .up-rec-buttons .up-start-learning {
+    background-color: #000;
+    color: #fff;
+}
+
+.up-course-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    color: black;
+}
+
+.up-course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+    text-align: left;
+    position: relative;
+    margin: 5rem;
+    margin-top: 3rem;
+}
+
+.up-course-card .up-course-image img {
+    background-color: #ddd;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+.up-course-card .up-course-info h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.up-course-card .up-course-info p {
+    color: black;
+    margin: 0.5rem 0;
+    font-weight:bold;
+}
+
+.up-course-card .up-course-icons span {
+    display: inline-block;
+    margin: 0 0.2rem;
+}
+
+.up-chart{
+    margin-top: 5rem;
+    width: 80rem;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.up-chart h1{
+    color: black;
+}
+
+.up-achievements{
+    margin: 10rem;
+    margin-top:1rem;
+    color: black;
+}
+
+.up-achievements .up-achievements-buttons {
+    display: flex;
+    gap: 2rem; 
+    margin-top: 2rem;
+}
+
+.up-achievements-received{
+    margin-top: 5rem;
+    margin-left: -30rem;
+}
+
+
+.up-achievements .up-achievements-buttons button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.up-achievements .up-achievements-buttons .up-share-button {
+    background-color: #000;
+    color: #fff;
+}
+
+.up-achievements .up-achievements-received{
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+}
+
+.up-achievements-received div {
+    text-align: center;
+    width: 300px; 
+}
+
+.up-achievements-received img {
+    margin-top: 1rem;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
