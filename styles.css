@@ -1,3 +1,5 @@
+/** USER PROFILE **/
+
 .up-body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -65,7 +67,6 @@
     display: flex;
     flex-direction: column;
 }
-
 .up-profile-details h2 {
     margin: 0;
     margin-bottom: 10px;
@@ -116,7 +117,6 @@
 .up-profile-actions .up-edit-profile:hover {
     background-color: #222;
 }
-
 .up-main-content {
     display: flex;
     flex-direction: column;
@@ -145,7 +145,6 @@
     font-size: 20px;
     margin-bottom: 30px;
 }
-
 .up-info-data {
     color: black;
     margin-top: 36px;
@@ -157,13 +156,11 @@
     padding-left:200px;
     padding-right:200px;
 }
-
 .up-card-row {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-
 .up-card {
     color: #333;
     padding: 20px;
@@ -173,14 +170,12 @@
     text-align: left;
     min-width: 200px; /* Minimum width to maintain card shape */
 }
-
 .up-card h2 {
     margin: 0;
     font-size: 18px;
     color: #7c7c7c;
     font-weight: normal;
 }
-
 .up-card p {
     color: black;
     font-size: 24px;
@@ -188,7 +183,6 @@
     margin: 0;
     margin-top: 15px;
 }
-
 .up-recommended-courses {
     padding: 1rem;
     background-color: white;
@@ -197,43 +191,35 @@
     padding-left: 20rem;
     margin-top: 5rem;
 }
-
 .up-courses-content {
     display: flex; 
     align-items: center; 
 }
-
 .up-courses-img {
     margin-right: 1.5rem; 
 }
-
 .up-courses-img img {
     width: 150px; 
     height: auto; 
     border-radius: 8px; 
 }
-
 .up-courses-text {
     text-align: left; 
 }
-
 .up-courses-text h2 {
     font-size: 2.5rem; 
     margin-bottom: 1.5rem; 
     color: black;
 }
-
 .up-courses-text p {
     font-size: 1.2rem; 
     margin-bottom: 1.5rem; 
     color: black;
 }
-
 .up-courses-text .up-rec-buttons {
     display: flex;
     gap: 1rem; 
 }
-
 .up-courses-text .up-rec-buttons button {
     padding: 15px 30px; 
     font-size: 18px; 
@@ -242,19 +228,16 @@
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
 .up-courses-text .up-rec-buttons .up-start-learning {
     background-color: #000;
     color: #fff;
 }
-
 .up-course-cards {
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
     color: black;
 }
-
 .up-course-card {
     background-color: white;
     border: 1px solid #ddd;
@@ -267,60 +250,49 @@
     margin: 5rem;
     margin-top: 3rem;
 }
-
 .up-course-card .up-course-image img {
     background-color: #ddd;
     height: 300px;
     width: 300px;
     margin-bottom: 1rem;
 }
-
 .up-course-card .up-course-info h3 {
     margin: 0;
     font-size: 1rem;
     font-weight: normal;
 }
-
 .up-course-card .up-course-info p {
     color: black;
     margin: 0.5rem 0;
     font-weight:bold;
 }
-
 .up-course-card .up-course-icons span {
     display: inline-block;
     margin: 0 0.2rem;
 }
-
 .up-chart{
     margin-top: 5rem;
     width: 80rem;
     align-items: center;
     margin-left: 6rem;
 }
-
 .up-chart h1{
     color: black;
 }
-
 .up-achievements{
     margin: 10rem;
     margin-top:1rem;
     color: black;
 }
-
 .up-achievements .up-achievements-buttons {
     display: flex;
     gap: 2rem; 
     margin-top: 2rem;
 }
-
 .up-achievements-received{
     margin-top: 5rem;
     margin-left: -30rem;
 }
-
-
 .up-achievements .up-achievements-buttons button {
     padding: 15px 30px; 
     font-size: 18px; 
@@ -330,23 +302,19 @@
     transition: background-color 0.3s;
     
 }
-
 .up-achievements .up-achievements-buttons .up-share-button {
     background-color: #000;
     color: #fff;
 }
-
 .up-achievements .up-achievements-received{
     display: flex;
     justify-content: center;
     gap: 2rem; 
 }
-
 .up-achievements-received div {
     text-align: center;
     width: 300px; 
 }
-
 .up-achievements-received img {
     margin-top: 1rem;
     align-items: center;
@@ -356,3 +324,145 @@
     margin-right: 10px;
 }
 
+/** USER PROFILE **/
+
+.ac-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.ac-header {
+    background-color: #ffffff; 
+    color: #000000;
+    padding: 10px 0;
+}
+
+.ac-header .ac-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.ac-header .ac-logo h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.ac-header .ac-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.ac-header .ac-nav ul li {
+    margin-left: 20px;
+}
+
+.ac-header .ac-nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.ac-main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.ac-certificates, .ac-badges {
+    margin-bottom: 40px;
+}
+
+.ac-certificates h2, .ac-badges h2 {
+    margin-top: 0;
+    text-align: left; 
+    font-size: 30px;
+}
+
+.ac-certificates p, .ac-badges p {
+    text-align: left; 
+}
+
+.ac-certificates-grid, .ac-badges-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.certificate, .badge {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.certificate img, .badge img {
+    width: 70px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.certificate .details, .badge .details {
+    flex-grow: 1;
+}
+
+.certificate .details h3, .badge .details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.certificate .details p, .badge .details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.badge .status {
+    font-weight: bold;
+    color: green;
+}
+
+.badge .status.not-earned {
+    color: red;
+}
+
+.ac-footer {
+    background-color: #ffffff; 
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.ac-footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ac-footer p {
+    margin: 0;
+}
+.ac-footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.ac-footer nav ul li {
+    margin-left: 20px;
+}
+.ac-footer nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
